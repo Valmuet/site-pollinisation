@@ -1,0 +1,260 @@
+/************************************** MEDIA QUERIES *************************/
+
+/*  
+
+
+1) HEADER
+2) COMMUN A TOUTES LES PAGES
+3) IMAGES
+4) BOUTONS
+5) ARTICLE
+6) VIDEO
+
+
+*/
+
+
+
+/****************************** HEADER */
+
+
+
+/*IMAGE ABEILLE HEADER*/
+
+@media screen and (min-width: 1701px) and (max-width: 1900px) {
+  #img-bee {
+    margin-top: 143px;
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1700px) {
+  #img-bee {
+    margin-top: 103px;
+  }
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+  #img-bee {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1500px) {
+  #img-bee {
+    margin-top: 38px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1320px) {
+  #img-bee {
+    margin-top: -7px;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1100px) {
+  #img-bee {
+    margin-top: -33px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #img-bee {
+    margin-top: -48px;
+  }
+}
+
+
+/*DIV FOND LETTRES HEADER*/
+
+@media screen and (max-width: 1200px) {
+  .div-fond-lettres {
+    padding-top: 150px;
+  }
+}
+
+
+
+/************************************** COMMUN A TOUTES LES PAGES */
+
+@media screen and (max-width: 1000px) {
+  .section-para {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .col-4, .col-8 {
+    max-width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  footer p {
+    font-size: 13px;
+  }
+}
+
+/* CONTAINER */
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/********************************* IMAGES EN ROND*/
+
+
+@media screen and (max-width: 1000px) {
+  .img-rond {
+    max-width: 50vw;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .img-padding {
+    padding: 70px;
+    max-width: 70vw;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .img-papillon {
+    margin-top: 50px;
+  }
+}
+
+
+
+/********************************** BOUTONS */
+
+@media screen and (min-width: 1300px) {
+  .div-etape {
+    margin-top: 490px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+  .div-etape {
+    margin-top: 560px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .div-etape {
+    margin-top: 1350px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bouton-bas .div-etape {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .bouton-bas .div-etape {
+    margin-top: 2380px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .bouton-insecte div {
+    margin-top: 3300px !important;
+  }
+}
+
+
+
+/********************************** ARTICLES */
+
+/*ARTICLE1*/
+
+@media screen and (max-width: 1300px) {
+  .article1 {
+    min-height: 620px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .article1 {
+    min-height: 700px;
+  }
+}
+
+/*ARTICLE2*/
+@media screen and (max-width: 1900px) {
+  .article2 {
+    min-height: 630px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .article2 {
+    min-height: 750px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .article2 {
+    min-height: 820px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .article2 {
+    min-height: 950px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .article2 {
+    min-height: 950px;
+  }
+}
+
+/*ARTICLE3*/
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+  .article3 {
+    min-height: 460px;
+  }
+}
+
+/*ARTICLE4*/
+
+@media screen and (max-width: 1000px) {
+  .article4 {
+    height: 550px;
+  }
+}
+
+
+/*ARTICLE5*/
+
+@media screen and (max-width: 1200px) {
+  .article5 {
+    min-height: 1000px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .article5 {
+    height: 1400px;
+  }
+}
+
+
+
+/**************************IFRAME ET VIDEO */
+
+@media screen and (max-width: 1000px) {
+  iframe, video {
+    padding-top: 90px;
+    height: 500px;
+    width: 80%;
+  }
+}
