@@ -132,11 +132,6 @@
 
 /********************************** BOUTONS */
 
-@media screen and (min-width: 1300px) {
-  .div-etape {
-    margin-top: 490px;
-  }
-}
 
 @media screen and (min-width: 1400px) and (max-width: 1500px) {
   .div-etape {
@@ -144,27 +139,10 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .div-etape {
-    margin-top: 1350px;
-  }
-}
 
 @media screen and (min-width: 1200px) {
   .bouton-bas .div-etape {
     margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .bouton-bas .div-etape {
-    margin-top: 2380px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .bouton-insecte div {
-    margin-top: 3300px !important;
   }
 }
 
@@ -174,9 +152,15 @@
 
 /*ARTICLE1*/
 
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 1000px) {
   .article1 {
-    min-height: 620px;
+    min-height: 560px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .article1 {
+    min-height: 1200px !important;
   }
 }
 
@@ -212,7 +196,7 @@
 
 @media screen and (max-width: 1100px) {
   .article2 {
-    min-height: 950px;
+    min-height: 1950px;
   }
 }
 
