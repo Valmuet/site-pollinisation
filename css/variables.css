@@ -213,6 +213,12 @@
 
 /*ARTICLE5*/
 
+@media screen and (max-width: 1300px) {
+  .article5 {
+    min-height: 880px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .article5 {
     min-height: 1000px;
